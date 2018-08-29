@@ -18,7 +18,7 @@
   text-decoration: none;
 }
 
-.welcome-section {
+#welcome-section {
   height:100vh;
 }
 
@@ -33,6 +33,8 @@
   width: 100%;
 }
 
-@media (min-width:1025px) {
-  /* Enable scrolling if the sidenav has too much content */
-  }
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
