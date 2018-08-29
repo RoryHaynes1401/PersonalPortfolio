@@ -19,11 +19,16 @@
 }
 
 #welcome-section {
+
+
+  height:100vh;
+}
+
+#welcome-text {
   display: flex;
   justify-content: center;
   align-content: center;
 
-  height:100vh;
 }
 
 
